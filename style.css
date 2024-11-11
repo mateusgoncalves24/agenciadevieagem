@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/12/13/17/night-flight-2307018_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgba(159, 200, 226, 0.696);
+    border-radius: 30px;
+    margin: 100px 25%;
+    padding: 20px 30px;
+}
+.formulario{
+    padding-top: 15px;
+    display: block;
+    /* justify-content: center; */
+    justify-items: center;
+}
+h1{
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
+    
+}

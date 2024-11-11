@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GONK - Intercambio</title>
+</head>
+<body>
+
+    <div class="container">
+
+        
+
+        <div class="benvindos">
+            <h1> GONK – Sua porta de entrada para o mundo!</h1>
+            <p>Na GONK, acreditamos que viajar e viver no exterior são experiências que transformam vidas e abrem portas para novas oportunidades. Nosso objetivo é ajudar você a explorar novas culturas, aprender idiomas e alcançar novos patamares na sua vida profissional e pessoal, tudo com o apoio de uma equipe experiente e dedicada.
+
+            Com anos de expertise no mercado de intercâmbio, oferecemos programas personalizados para diferentes destinos ao redor do mundo. Seja para estudar, trabalhar ou vivenciar novas experiências, a GONK está aqui para guiar você em cada etapa do processo.
+                
+            Para garantir a segurança e a adequação dos programas, é necessário que o participante tenha mais de 18 anos. A primeira etapa para começar sua jornada internacional é simples: precisamos verificar se você atende a esse requisito. Vamos fazer isso agora. Prepare-se para descobrir o mundo com a GONK!</p>
+        </div>
+
+        <div class="formulario">
+            <h2>Validação de Idade</h2>
+            <p>Por favor, digite sua idade</p>
+            <input type="number" name="" id="idadeInput">
+            <button onclick="verificarIdade()">Verificar</button>
+        </div>
+
+        <script>
+            function verificarIdade(){
+                const idade = parseInt(document.getElementById("idadeInput").value)
+                if (idade >= 18) {
+
+                    window.location.href = "meusite.html";
+                    
+                } else {
+                    window.location.href = "menor.html"
+                    
+                }
+
+
+
+            }
+            
+        </script>
+    </div>
+    
+</body>
+</html>
